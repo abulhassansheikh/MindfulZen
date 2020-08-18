@@ -1,0 +1,707 @@
+
+<!DOCTYPE html>
+<html>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        body,h1 {font-family: "Raleway", Arial, sans-serif}
+        h1 {letter-spacing: 6px}.w3-row-padding img {margin-bottom: 12px}
+    </style>
+
+    <body class="w3-padding-large">
+
+        <header class="w3-panel w3-center w3-opacity w3-mobile" >
+
+          <h1 class="w3-xlarge w3-blue w3-mobile">MindfulZen</h1>
+          <h2 class="w3-large w3-black w3-mobile">Experience a High Quality, Stress Free Life</h2>
+          <h5 class="w3-large w3-blue w3-mobile">Answer the following questions for tailored stress reduction recommendations</h5>
+
+          <div class="w3-padding-small">
+            <div class="w3-bar">
+
+              <form class="w3-panel" method="POST" enctype="multipart/form-data">
+              
+                <h4>WHAT IS YOUR GENDER?</h2>
+                    <label class="radio-inline">
+                        <input type="radio" name="GENDER" value=0> Male </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="GENDER" value=1> Female </input<br>
+                    </label>
+                    <hr>
+
+                <h4>WHAT IS YOUR AGE?</h2>
+                    <label class="radio-inline">
+                        <input type="radio" name="AGE" value=0> Less than 20 </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="AGE" value=1> 21 to 35 </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="AGE" value=2> 36 to 50 </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="AGE" value=3> 51 or more </input<br>
+                    </label>
+                    <hr>
+
+                <h4>HOW MANY TIMES DO YOU DONATE YOUR TIME OR MONEY TO GOOD CAUSES? </h2>
+                <p>Over a period of 12 months. Include financial donation, your time contribution, fundraising, volunteering, serving your country and the poor, ...</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DONATION" value=5> Five </input<br>
+                    </label>
+                    <hr>
+
+
+                <h4>HOW OFTEN DO YOU SHOUT OR SULK AT SOMEBODY PER WEEK?</h2>
+                <p> In a typical week. Expressing your negative emotions in an active or passive manner.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_SHOUTING" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>IN A TYPICAL DAY, HOW MANY HOURS DO YOU EXPERIENCE FLOW?</h2>
+                <p>'Flow' is defined as the mental state, in which you are fully immersed in performing an activity. You then experience a feeling of energized focus, full involvement, and enjoyment in the process of this activity. </p>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=0> None </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FLOW" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>HOW SUFFICIENT IS YOUR INCOME TO COVER BASIC LIFE EXPENSES?</h2>
+                <p> Such as the costs of housing, food, health care, car and education.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUFFICIENT_INCOME" value=0> Not or hardly sufficient </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUFFICIENT_INCOME" value=1> Sufficient </input<br>
+                    </label>
+
+                    <hr>
+
+                <h4>HOW MANY DAYS OF VACATION DO YOU TYPICALLY LOSE EVERY YEAR ?</h2>
+                <p> Unused vacation days, lost or carried forward into the following year. Or because of work stress during your vacation.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LOST_VACATION" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+
+                <h4>HOW MANY NEW PLACES DO YOU VISIT PER YEAR?</h2>
+                <p>Over a period of 12 months. Include new states, new cities as well as museum, places of interest and parks in your neighborhood.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PLACES_VISITED" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>IN A TYPICAL WEEK, HOW MANY TIMES DO YOU HAVE THE OPPORTUNITY TO THINK ABOUT YOURSELF? </h2>
+                <p>Include meditation, praying and relaxation activities such as fitness, walking in a park or lunch breaks.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_MEDITATION" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+               <h4>HOW MANY FRUITS OR VEGETABLES DO YOU EAT EVERYDAY?</h2>
+               <p> In a typical day, averaging workdays and weekends. Select 5 if more than 5.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="FRUITS_VEGGIES" value=5> Five </input<br>
+                    </label>
+                    <hr>
+
+
+                <h4>HOW WELL DO YOU COMPLETE YOUR WEEKLY TO-DO LISTS?</h2>
+                <p> Include your weekly goals, work- and personal-related tasks. On a scale of 0 = not at all to 10 = very well.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TODO_COMPLETED" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>WHAT IS YOUR BODY MASS INDEX (BMI) RANGE?</h2>
+                <p> Your body mass in kg divided by the square of your height in meters</p>
+                  <label class="form-control">
+                    <input type="radio" name="BMI_RANGE" value=1> Below 25 </input<br>
+                  </label>
+                  <label class="form-control">
+                    <input type="radio" name="BMI_RANGE" value=2> Above 25 </input<br>
+                  </label>
+
+                    <hr>
+                    
+                <h4>HOW MANY RECOGNITIONS HAVE YOU RECEIVED IN YOUR LIFE? </h2>
+                <p> Significant public recognitions validating a personal level of expertise and engagement E.g.: diploma, degree, certificate, accreditation, award, prize, published book, presentation at major conference, medals, cups, titles.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=0> None </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="PERSONAL_AWARDS" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+                    
+                <h4>WITH HOW MANY PEOPLE DO YOU INTERACT WITH DURING A TYPICAL DAY?</h2>
+                <p> True interactions and dialogues at home, at work, at the gym, ... Average of workdays and weekends</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=0> None </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SOCIAL_NETWORK" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+                    
+                <h4>HOW MANY REMARKABLE ACHIEVEMENTS ARE YOU PROUD OF?</h2>
+                <p>Over the last 12 months, personal achievements known to your family, close friends or co-workers such as: running a marathon or important race, birth, successful kids, new house or major renovation, major success at work, opening a new business</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="ACHIEVEMENT" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+                    
+                <h4>HOW MANY PEOPLE DO YOU HELP ACHIEVE A BETTER LIFE?</h2>
+                <p>e.g.: caring for your family, actively supporting a friend, mentoring, coaching, developing or promoting a co-worker.., Over a period of 12 months.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SUPPORTING_OTHERS" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+                    
+                <h4>HOW MANY PEOPLE ARE VERY CLOSE TO YOU?</h2>
+                <p> i.e. close family and friends ready to provide you with a long-term unconditional support.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=0> None </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="CORE_CIRCLE" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>HOW MANY STEPS (IN THOUSANDS) DO YOU TYPICALLY WALK EVERYDAY?</h2>
+                <p>Thousand steps, daily average over multiple days including work days and week-end.</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=0> Less than a Thousand per day </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="DAILY_STEPS" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+                <h4>HOW MANY HOURS DO YOU SPEND EVERYDAY DOING WHAT YOU ARE PASSIONATE ABOUT?</h2>
+                <p>Daily hours spent doing what you are passionate and dreaming about, and/or contributing to a greater cause: health, education, peace, society development</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="TIME_FOR_PASSION" value=10> Ten+ </input<br>
+                    </label>
+                    <hr>
+
+                <h4>FOR HOW MANY YEARS AHEAD IS YOUR LIFE VISION VERY CLEAR FOR? </h2>
+                <p>For instance, illustrated in a vision board, detailed in a personal journal or openly discussed with your spouse or close friends. </p>
+                <p>Where Zero equals 'I do not have a life vision' </p>
+
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="LIVE_VISION" value=10> Ten+ </input<br>
+                    </label>
+                    
+                    <hr>
+
+                <h4>ABOUT HOW LONG DO YOU TYPICALLY SLEEP IN HOURS PER NIGHT?</h2>
+                <p>Over the course of a typical working week, including week-end</p>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=0> Zero </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=1> One </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=2> Two </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=3> Three </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=4> Four </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=5> Five </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=6> Six </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=7> Seven </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=8> Eight </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=9> Nine </input<br>
+                    </label>
+                    <label class="radio-inline">
+                        <input type="radio" name="SLEEP_HOURS" value=10> Ten </input<br>
+                    </label>
+                    
+                <p><input class="w3-button w3-gray w3-mobile" type="submit" ></p>
+              </form>
+
+            </div>
+          </div>
+
+        </header>
+
+        <table class="w3-table w3-centered w3-padding-large w3-striped" >
+
+        <tr >
+          <th width="20%"></th>
+          <th ></th>
+        </tr>
+
+        {% for Data in Data %}
+
+            <tr  align="center">
+                <td width="20%">{{ Data[0] }}</td>
+                <td>{{ Data[1] }}</td>
+            </tr>
+
+        {% endfor %}
+
+      </table>
+
+    <div class="w3-container w3-margin w3-black w3-xlarge"></div>
+
+    </body>
+</html>
